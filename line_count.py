@@ -22,7 +22,7 @@ def get_args():
     args = sys.argv[1:]
 
     if len(args) != 2:
-        print("Usage: line_count.py <directory> <file ending list> ")
+        print("Usage: line_count.py <directory> <file-extensions> ")
         print("Example: line_count.py /home/user/ .java")
         sys.exit(1)
 
